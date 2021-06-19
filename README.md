@@ -1,6 +1,6 @@
 # 21-1_DataMining
 
-## 21-1 Datamining class project 
+## 2021-1 Datamining class project 
 
 
 ### 1. Classification - Prediction of diabetes using pima indian diabetes dataset
