@@ -1,4 +1,0 @@
-21-1 데이터마이닝 수업 프로젝트 
-
-1. Classification using pima indians diabetes datasets
-2. Regression using US health Insurance datasets 
