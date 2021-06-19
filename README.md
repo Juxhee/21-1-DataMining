@@ -2,6 +2,7 @@
 
 21년 1학기 데이터마이닝 수업 프로젝트
 
+
 1. Classification - Prediction of diabetes using pima indian diabetes dataset
 - Logistic Regression
 - Decision Tree
