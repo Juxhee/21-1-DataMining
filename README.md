@@ -32,5 +32,10 @@
 #### 사용한 모델 
 - Linear Regression
 - Regression Tree
+![image](https://user-images.githubusercontent.com/60679596/146880673-e4465d19-f1e9-4050-9180-b3e29b379e14.png)
+
+
+
 - Gradient Boosting
 - Random Forest
+-
