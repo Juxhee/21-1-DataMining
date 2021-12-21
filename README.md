@@ -23,7 +23,21 @@
 - Random Forest
 
 ## 2. Regression - Prediction of insurance premiums using US health insurance dataset
-### US 건강 보험 데이터를 활용한 보험료 예측 문제 
+### US 건강 보험 데이터를 활용한 보험료 예측 문제 - 보험계약자의 나이, 성별, 자녀수 등 데이터를 기반으로 한 보험료 예측 
+
+### DataSet
+#### US health Insurance Dataset
+#### 설명변수 6개 
+- Region 거주지역
+- Smoker 흡연여부
+- Children 자녀수
+- BMI 체질량지수
+- Sex 성별
+- Age 나이
+
+#### 종속변수 
+- Charges 보험료
+
 
 ### EDA 
 #### 1) 종속변수 값인 '보험료'를 정규분포에 근사하도록 정규화
