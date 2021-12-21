@@ -4,23 +4,66 @@
 
 
 ## 1. Classification - Prediction of diabetes using pima indian diabetes dataset
-#### pima 원주민들의 의료기록 데이터를 기반으로 한 당뇨병 예측 문제 (Binary Classification)
+### pima 인디언 여성들의 의료기록 데이터를 기반으로 한 당뇨병 예측 문제 (Binary Classification)
 
-#### EDA 결과 이슈사항
-1) 결측치 처리 
+
+### DataSet
+#### US health Insurance Dataset
+#### 설명변수 8개 
+- Pregnancies 임신 횟수
+- Glucose 혈당 수치
+- BloodPressure 혈압
+- SkinThickness 팔 삼두근 뒤쪽 피하지방 값
+- Insulin 인슐린
+- BMI 비만도를 나타내는 체질량지수
+- DiabetesPedigreeFunction 당뇨 내력가중치
+
+
+#### 종속변수 
+- Outcome 당뇨 여부 (0/1)
+
+
+### EDA 
+
+
+#### 1) 혈당 수치와 당뇨병 여부와의 관계 확인 
+
+![image](https://user-images.githubusercontent.com/60679596/146881974-4cb1a83c-6aad-4b6d-9123-8846f15920ff.png)
+- 혈당 수치가 당뇨병 여부 분류에 중요한 영향을 미칠 것이라 판단
+- 혈당 수치 포함 모델/미포함 모델링 진행 
+
+
+#### 2) 결측치 처리 
 - '인슐린','피하지방' 변수에서 결측치가 다수 존재함
 - KNN을 활용해 결측치가 존재하는 행의 데이터와 유사한 이웃들의 데이터를 활용해 결측치 처리
   : 'feature similarity'를 이용해 가장 닮은(근접한) 데이터를 K개를 찾는 방식
-2) 상관관계 분석
-- '혈당수치'와 당뇨병과의 상관관계가 높았음
-- 이에 따라, '혈당수치'를 제거한 모델을 함께 만들어서 결과를 비교 분석
+  
+  ![image](https://user-images.githubusercontent.com/60679596/146882174-76ccc1e0-c5ef-4f09-b329-4777eebcc289.png)
+
+  
 
 
-#### 사용한 모델 
-- Logistic Regression
-- Decision Tree
-- Gradient Boosting
-- Random Forest
+### 사용한 모델 및 결과 요약
+#### 1) Logistic Regression
+
+![image](https://user-images.githubusercontent.com/60679596/146882202-63e71bcf-31b3-4a0c-b47f-e27684a5c6b2.png)
+
+
+#### 2) Decision Tree
+
+![image](https://user-images.githubusercontent.com/60679596/146882467-9153f7a2-d5a7-4cbc-bc55-65b5aff203dc.png)
+
+
+#### 3) Gradient Boosting
+
+![image](https://user-images.githubusercontent.com/60679596/146882262-125d95be-ff28-4a79-ac80-898e11bcfb1e.png)
+
+
+#### 4) Random Forest
+
+![image](https://user-images.githubusercontent.com/60679596/146882533-a7739375-fc1f-439f-b18a-4891c60f95ca.png)
+
+
 
 ## 2. Regression - Prediction of insurance premiums using US health insurance dataset
 ### US 건강 보험 데이터를 활용한 보험료 예측 문제 
