@@ -32,7 +32,10 @@
 
 
 2) 흡연 여부와 보험료 관계 확인
+
 ![image](https://user-images.githubusercontent.com/60679596/146880979-9d1f2af8-3231-4cb5-9a1b-2780d4ada2fd.png)
+
+
 - 흡연자의 보험료가 비흡연자보다 상대적으로 높은 편
 - 흡연 여부는 보험료에 중요한 영향을 미칠 것이라 판단하여 흡연 여부 포함 / 미포함 모델링 과정 비교 
 
@@ -40,15 +43,19 @@
 
 #### 사용한 모델 
 - Linear Regression
+
 ![image](https://user-images.githubusercontent.com/60679596/146880831-e56690c5-6217-41b4-bec2-edd9029cccd1.png)
 
 - Regression Tree
+
 ![image](https://user-images.githubusercontent.com/60679596/146880673-e4465d19-f1e9-4050-9180-b3e29b379e14.png)
 
 
 - Gradient Boosting
+
 ![image](https://user-images.githubusercontent.com/60679596/146880795-6d1c638e-ec4f-4bdc-b0cf-6df1a957aad4.png)
 
 - Random Forest
+
 ![image](https://user-images.githubusercontent.com/60679596/146880750-fbe17cae-9ce7-4a1c-a05e-348e490a93d4.png)
 
