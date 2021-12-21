@@ -23,17 +23,19 @@
 - Random Forest
 
 ## 2. Regression - Prediction of insurance premiums using US health insurance dataset
-#### US 건강 보험 데이터를 활용한 보험료 예측 문제 
+### US 건강 보험 데이터를 활용한 보험료 예측 문제 
 
-#### EDA 
-1) 종속변수 값인 '보험료'를 정규분포에 근사하도록 정규화
-![image](https://user-images.githubusercontent.com/60679596/146880897-42afdbe4-eb45-4658-ad70-76695d256c71.png)
+### EDA 
+#### 1) 종속변수 값인 '보험료'를 정규분포에 근사하도록 정규화
+
+![image](https://user-images.githubusercontent.com/60679596/146881400-a0e5db7c-f833-4500-874c-e8b8a8382f3a.png)
 
 
 
-2) 흡연 여부와 보험료 관계 확인
 
-![image](https://user-images.githubusercontent.com/60679596/146880979-9d1f2af8-3231-4cb5-9a1b-2780d4ada2fd.png)
+#### 2) 흡연 여부와 보험료 관계 확인
+
+![image](https://user-images.githubusercontent.com/60679596/146881370-68e4a34b-3f76-4179-bbff-316654f4e329.png)
 
 
 - 흡연자의 보험료가 비흡연자보다 상대적으로 높은 편
@@ -41,21 +43,21 @@
 
 
 
-#### 사용한 모델 
-- Linear Regression
+### 사용한 모델 
+#### 1) Linear Regression
 
-![image](https://user-images.githubusercontent.com/60679596/146880831-e56690c5-6217-41b4-bec2-edd9029cccd1.png)
-
-- Regression Tree
-
-![image](https://user-images.githubusercontent.com/60679596/146880673-e4465d19-f1e9-4050-9180-b3e29b379e14.png)
+![image](https://user-images.githubusercontent.com/60679596/146881350-a8a8917f-92bc-4e7d-9f83-df31c6a35e52.png)
 
 
-- Gradient Boosting
+#### 2) Regression Tree
 
-![image](https://user-images.githubusercontent.com/60679596/146880795-6d1c638e-ec4f-4bdc-b0cf-6df1a957aad4.png)
+![image](https://user-images.githubusercontent.com/60679596/146881282-8511cd38-065f-4dfc-921d-6b387f508399.png)
 
-- Random Forest
+#### 3) Gradient Boosting
 
-![image](https://user-images.githubusercontent.com/60679596/146880750-fbe17cae-9ce7-4a1c-a05e-348e490a93d4.png)
+![image](https://user-images.githubusercontent.com/60679596/146881230-264ceb54-650a-40b0-abe4-b68b4324311e.png)
+
+#### 4) Random Forest
+
+![image](https://user-images.githubusercontent.com/60679596/146881250-ad5c15de-cb64-410c-8952-e960a30e301c.png)
 
