@@ -1,7 +1,4 @@
-# 21-1_DataMining
-
-## 2021 1st semester Datamining class project 
-
+# 2021 1st semester Datamining class project 
 
 ## 1. Classification - Prediction of diabetes using pima indian diabetes dataset
 ### pima 인디언 여성들의 의료기록 데이터를 기반으로 한 당뇨병 예측 문제 (Binary Classification)
