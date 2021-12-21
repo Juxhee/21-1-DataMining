@@ -62,6 +62,10 @@
 
 
 
+
+
+
+
 ## 2. Regression - Prediction of insurance premiums using US health insurance dataset
 ### US 건강 보험 데이터를 활용한 보험료 예측 문제 
 ### - 보험계약자의 나이, 성별, 자녀수 등 데이터를 기반으로 한 보험료 예측 
