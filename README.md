@@ -89,6 +89,7 @@ parameters = {
 
 clf = GridSearchCV(GradientBoostingClassifier(), parameters, cv=5, n_jobs=-1)
 clf.fit(X_train, y_train)
+```
 
 </br>
 
