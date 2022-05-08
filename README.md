@@ -189,7 +189,7 @@ reg_tree.fit(X_train, y_train)
 
 ![image](https://user-images.githubusercontent.com/60679596/146881282-8511cd38-065f-4dfc-921d-6b387f508399.png)
 
-#### 3) Gradient Boosting
+#### 3) XGboost
 
 ```python
 import xgboost 
